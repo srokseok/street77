@@ -1,0 +1,519 @@
+@media (max-width:1140px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .header__title {
+        font-size: 60px;
+    }
+
+    .header__content_price {
+        font-size: 45px;
+    }
+
+    .main-menu__content {
+        height: 280px;
+    }
+
+    .main-menu {
+        padding-bottom: 50px;
+    }
+
+    .branches__title {
+        font-size: 30px;
+        padding: 40px 0;
+    }
+
+    .footer__nav {
+        margin-bottom: 30px;
+    }
+
+    .recipe__title {
+        font-size: 32px;
+    }
+
+    .recipe {
+        padding-bottom: 50px;
+    }
+
+    .recipe__title {
+        margin-bottom: 25px;
+    }
+
+    .main__list {
+        justify-content: space-between;
+    }
+
+    .main__list_link {
+        margin-right: 0;
+    }
+
+    .order__text_span {
+        display: none;
+    }
+
+    .order__card_text {
+        font-size: 14px;
+        line-height: 20px;
+        width: 400px;
+    }
+}
+
+@media(max-width:960px) {
+    .container {
+        max-width: 840px;
+    }
+
+    .header__title {
+        font-size: 55px;
+        width: 100%;
+        text-align: right;
+    }
+
+    .header__underTitle {
+        font-size: 30px;
+        text-align: right;
+        width: 100%;
+    }
+
+    .header__content_description {
+        text-align: justify;
+    }
+
+    .header__content_price {
+        font-size: 30px;
+        padding: 25px 40px;
+        text-align: center;
+    }
+
+    .main__list {
+        margin-bottom: 50px;
+    }
+
+    .main-menu__content {
+        height: 250px;
+    }
+
+    .recipe__title {
+        font-size: 28px;
+    }
+
+    .recipe {
+        padding: 25px 0;
+    }
+
+    .recipe__title::after {
+        margin-top: 15px;
+    }
+
+    .recipe__description {
+        text-align: justify;
+    }
+
+    .branches__title {
+        font-size: 28px;
+        padding: 20px 0;
+    }
+
+    .map {
+        height: 400px;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .order__img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .order__card_title{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:840px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header__title {
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+
+    .header__underTitle {
+        font-size: 28px;
+    }
+
+    .header__content_price {
+        padding: 10px 40px;
+    }
+
+    .main__list_link {
+        font-size: 18px;
+    }
+
+    .main-menu__content {
+        height: 220px;
+    }
+
+    .main-menu__content_price {
+        padding: 10px 40px;
+    }
+
+    .main-menu__title {
+        margin: 10px 0;
+    }
+
+    .main-menu__description {
+        line-height: 18px;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .recipe__title {
+        font-size: 25px;
+    }
+
+    .recipe__description {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer__nav {
+        margin-bottom: 15px;
+    }
+
+    .footer__list_link {
+        margin: 0;
+    }
+
+    .footer__list {
+        justify-content: space-around;
+    }
+
+    .footer__description {
+        margin-top: 15px;
+    }
+
+    .total__btn{
+        font-size: 16px;
+        padding: 15px 35px;
+    }
+
+    .order__btn{
+        padding-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .order__card_text{
+        width: 350px;
+        font-size: 14px;
+    }
+
+    .order__img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .order__card_title{
+        font-size: 20px;
+    }
+
+    .total{
+        margin-top: 30px;
+    }
+
+    .total__price{
+        margin: 10px 0;
+    }
+
+    .order__title{
+        font-size: 30px;
+    }
+
+    .order{
+        padding: 70px 0;
+    }
+}
+
+@media (max-width:720px) {
+    .container {
+        max-width: 640px;
+    }
+
+    .nav {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .nav__list_link {
+        padding: 20px;
+
+    }
+
+    .nav__list {
+        margin-top: 20px;
+    }
+
+    .header__content_description {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .header__content_price {
+        width: max-content;
+        padding: 0 35px;
+    }
+
+    .main__list {
+        margin-bottom: 25px;
+    }
+
+    .main-menu__content {
+        height: 180px;
+    }
+
+    .main-menu__content_price {
+        padding: 5px 20px;
+    }
+
+    .main-menu__content_add {
+        font-size: 18px;
+    }
+
+    .main-menu__description {
+        line-height: 16px;
+    }
+
+    .main-menu__card:nth-of-type(1),
+    .main-menu__card:nth-of-type(2),
+    .main-menu__card:nth-of-type(3) {
+        margin-bottom: 25px;
+    }
+
+    .recipe__description {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .branches__title {
+        font-size: 25px;
+    }
+
+    .map {
+        height: 300px;
+    }
+
+    .footer__nav_number {
+        font-size: 20px;
+    }
+
+    .footer__list_link {
+        font-size: 16px;
+    }
+
+    .logo {
+        padding: 5px 15px;
+    }
+
+    .order__card_text{
+        font-size: 12px;
+        line-height: 20px;
+        width: 250px;
+    }
+}
+
+@media (max-width:640px) {
+    .container {
+        max-width: 520px;
+    }
+
+    .header__title {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .header__underTitle {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .main-menu__card {
+        width: 50%;
+    }
+
+    .main-menu__content {
+        height: 220px;
+    }
+
+    .recipe__title {
+        font-size: 22px;
+    }
+
+    .recipe__description {
+        font-size: 12px;
+    }
+
+    .recipe__description:nth-of-type(1) {
+        margin-bottom: 15px;
+    }
+
+    .order__btn{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    .order__card_title{
+        font-style: 18px;
+        margin-bottom: 15px;
+    }
+
+    .order__card_text{
+        width: 200px;
+        line-height: 15px;
+    }
+}
+
+@media(max-width:520px) {
+    .container {
+        max-width: 480px;
+    }
+
+    .nav__list_link {
+        padding: 10px;
+    }
+
+    .header__title {
+        font-size: 35px;
+    }
+
+    .header__underTitle {
+        font-size: 20px;
+    }
+
+    .header__content_description {
+        font-size: 14px;
+    }
+
+    .main-menu__description {
+        line-height: 14px;
+    }
+
+    .main-menu__title {
+        margin: 5px 0;
+    }
+
+    .recipe__description:nth-of-type(2) {
+        display: none;
+    }
+
+    .branches__title {
+        font-size: 20px;
+    }
+
+    .recipe__title {
+        font-size: 20px;
+    }
+
+    .map {
+        height: 250px;
+    }
+
+    .footer__list_link {
+        font-size: 14px;
+    }
+
+    .footer__description {
+        font-size: 14px;
+    }
+
+    .order__card{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .order__card_text{
+        font-size: 14px;
+        line-height: 20px;
+        width: 350px;
+        margin-bottom: 25px;
+    }
+
+    .order__card_title{
+        margin-top: 25px;
+    }
+
+    .order__btn{
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+}
+
+@media(max-width:480px) {
+    .container {
+        max-width: 320px;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav__list_link {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .header__title {
+        font-size: 25px;
+    }
+
+    .header__underTitle {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .header__content_description {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .header__content_price {
+        padding: 0 20px;
+        font-size: 25px;
+    }
+
+    .header__content {
+        align-items: center;
+    }
+
+    .main__list_link{
+        font-size: 12px;
+    }
+
+    .main-menu{
+        flex-direction: column;
+    }
+
+    .main-menu__description{
+        width: 300px;
+    }
+
+    .main-menu__card{
+        text-align: center;
+        width: 100%;
+    }
+
+    .main-menu__content_img{
+        height: 300px;
+    }
+
+    .main-menu__card:nth-of-type(4),
+    .main-menu__card:nth-of-type(5),
+    .main-menu__card:nth-of-type(6){
+        margin-top: 15px;
+    }
+}
